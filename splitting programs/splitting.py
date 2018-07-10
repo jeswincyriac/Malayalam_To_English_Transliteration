@@ -13,10 +13,11 @@ while malword != "" :
 
         out.write(malword[i])
         exp = malword[i+1] == "ി"or malword[i+1] =="ാ"or malword[i+1] == "ീ"or malword[i+1] == "ു"or malword[i+1] == "ൂ"or malword[i+1] == "ൃ"or malword[i+1] == "ൗ"
-        if ( exp or malword[i+1] ==  "േ" or malword[i+1] =="ൈ"or malword[i+1] =="ോ"or malword[i+1] =="ൌ"or malword[i+1] =="െ" or malword[i+1] =="്" ):
+        exp2= malword[i+1] ==  "േ" or malword[i+1] =="ൈ"or malword[i+1] =="ോ"or malword[i+1] =="ൌ"or malword[i+1] =="െ" or malword[i+1] =="്"or malword[i+1] == "ം"
+        if ( exp or exp2 or malword[i+1] =="ൊ"):
             out.write(malword[i+1])
             if i==0:
-                out.write(" 1") 
+                out.write(" 1")
             elif malword[i+2] == "$" :
                 out.write(" 3")
             else:
