@@ -1,7 +1,7 @@
 import codecs
 
 filem = codecs.open("malayalam.txt","r",encoding="utf-8")
-fileeng = open ("english.txt","r")
+#fileeng = open ("english.txt","r")
 out = codecs.open ("test.txt","a",encoding="utf-8")
 malword=filem.readline()
 
@@ -13,7 +13,7 @@ while malword != "" :
 
         out.write(malword[i])
         exp = malword[i+1] == "ി"or malword[i+1] =="ാ"or malword[i+1] == "ീ"or malword[i+1] == "ു"or malword[i+1] == "ൂ"or malword[i+1] == "ൃ"or malword[i+1] == "ൗ"
-        if ( exp or malword[i+1] ==  "േ" or malword[i+1] =="ൈ"or malword[i+1] =="ോ"or malword[i+1] =="ൌ"or malword[i+1] =="െ" or malword[i+1] =="്" ):
+        if ( exp or malword[i+1] ==  "േ" or malword[i+1] =="ൈ"or malword[i+1] =="ോ"or malword[i+1] =="ൌ"or malword[i+1] =="െ" or malword[i+1] =="്"or malword[i+1] ==  "ം" ):
             out.write(malword[i+1])
             if i==0:
                 out.write(" 1") 
