@@ -10,19 +10,27 @@ while malword != "" :
     #engword=fileeng.readline().lower()
     i=0
     while malword[i] !="$":
-        if i==0:
-            out.write("1 ")
-        elif malword[i+1] == "$" :
-            out.write("3 ")
-        else:
-            out.write("2 ")
+
         out.write(malword[i])
         exp = malword[i+1] == "ി"or malword[i+1] =="ാ"or malword[i+1] == "ീ"or malword[i+1] == "ു"or malword[i+1] == "ൂ"or malword[i+1] == "ൃ"or malword[i+1] == "ൗ"
         if ( exp or malword[i+1] ==  "േ" or malword[i+1] =="ൈ"or malword[i+1] =="ോ"or malword[i+1] =="ൌ"or malword[i+1] =="െ" or malword[i+1] =="്" ):
             out.write(malword[i+1])
+            if i==0:
+                out.write(" 1") 
+            elif malword[i+2] == "$" :
+                out.write(" 3")
+            else:
+                out.write(" 2 ")
             out.write("\n")
             i=i+2
         else:
+            if i==0:
+                out.write(" 1")
+            elif malword[i+1] == "$" :
+                out.write(" 3")
+            else:
+                out.write(" 2")
+
             i=i+1
             out.write("\n")
     malword=filem.readline()
