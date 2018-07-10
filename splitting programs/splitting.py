@@ -1,7 +1,7 @@
 import codecs
 
 filem = codecs.open("malayalam.txt","r",encoding="utf-8")
-fileeng = open ("english.txt","r")
+#fileeng = open ("english.txt","r")
 out = codecs.open ("test.txt","a",encoding="utf-8")
 malword=filem.readline()
 
