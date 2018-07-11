@@ -1,47 +1,104 @@
-Ka
-n
-na
-man
-ga
-lam
-Ka
-t
-ta
-nam
-Ma
-ve
-li
-k
-ka
-ra
-Noo
-r
-na
-d
-Pa
-la
-me
-l
-Pe
-ru
-n
-ga
-la
-Tha
-ma
-ra
-k
-ku
-lam
-The
-k
-ke
-ka
-ra
-Thri
-p
-ru
-th
-tu
-ram
-
+No    2
+r     1
+t     1
+th    2
+E     1
+zha   3
+p     1
+pa    2
+n     1
+na    2
+Ka    2
+da    2
+k     1
+ka    2
+ra    2
+p     1
+pa    2
+l     1
+ly    2
+Ko    2
+da    2
+mu    2
+r     1
+t     1
+thi   3
+Ku    2
+t     1
+thi   3
+yo    2
+tto   3
+Ma    2
+ra    2
+ri    2
+k     1
+ku    2
+lam   3
+No    2
+r     1
+t     1
+th    2
+Pa    2
+l     1
+li    2
+p     1
+pu    2
+ram   3
+Pa    2
+na    2
+va    2
+l     1
+ly    2
+Pa    2
+t     1
+ta    2
+k     1
+ka    2
+d     1
+Pe    2
+ru    2
+m     1
+pa    2
+lam   3
+Thai  4
+k     1
+ka    2
+t     1
+tu    2
+sse   3
+ry    2
+Thu   3
+ra    2
+voo   3
+r     1
+The   3
+k     1
+ku    2
+A     1
+m     1
+ba    2
+la    2
+p     1
+pu    2
+zha   3
+A     1
+r     1
+ya    2
+d     1
+Sou   3
+t     1
+th    2
+Ka    2
+la    2
+voo   3
+r     1
+Ka    2
+ru    2
+ma    2
+dy    2
+Ma    2
+n     1
+na    2
+nch   3
+che   3
+ry    2
