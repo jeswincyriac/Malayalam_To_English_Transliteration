@@ -1,5 +1,5 @@
 import codecs
-fileeng = codecs.open("english.txt","r",encoding="utf-8")
+fileeng = codecs.open("eng1.txt","r",encoding="utf-8")
 #filem = codecs.open("test2.txt","r",encoding="utf-8")
 out = codecs.open ("finaleng.txt","w",encoding="utf-8")
 engword=fileeng.readline()
