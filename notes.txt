@@ -3,3 +3,13 @@ neriamangalam?ര റ 261
 rima.
 rnn-recurrent neural network
 n-gram approach for each letter
+PS1='\u:\W\$ '
+awk '{print($2" "$1)}' test.txt>test2.txt
+awk '{print($2":"$1)}' finaleng.txt>finaleng2.txt
+awk '{print tolower($3":"$1)}' out1.txt>temp.txt
+column -t -s $':' finaleng2.txt >finaleng3.txt
+to combine:
+awk '{f1 = $0; getline<"test2.txt";print f1, $1, $2}' < finaleng3.txt > final.txt
+awk '{f1 = $0; getline<"temp.txt";print f1, $1, $2}' < preeng3.txt > temp2.txt
+
+fees,vyas,neural
