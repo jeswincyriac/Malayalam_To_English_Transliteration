@@ -54,7 +54,17 @@ while malword != "" :
             i=i+1
         out.write("\n")
 
-
+    out.write("$ 9 9")
+    out.write("\n")
     malword=filem.readline()
 #subprocess.call(['./script2.sh'])
 subprocess.Popen(["bash", "./script2.sh"])
+filem.close()
+out.close()
+#tempin = codecs.open("output.txt","r",encoding="utf-8")
+#tempout = codecs.open ("finaloutput.txt","w",encoding="utf-8")
+#letter = tempin.readline()
+#while malword != "" :
+#    tempout.write(letter)
+#    print(letter)
+#    letter = tempin.readline()
