@@ -6,6 +6,10 @@ from shutil import copy2
 
 #cmd = r"sed  's/ /\n/g' input.txt > temp.txt "
 #subprocess.call(cmd, shell=True,universal_newlines=True)
+malword =  input("Enter your word ")
+filetempm = codecs.open("tempm.txt","w",encoding="utf-8")
+filetempm.write(malword)
+filetempm.close()
 subprocess.call(['./script1.sh'])
 filem = codecs.open("malayalam.txt","r",encoding="utf-8")
 out = codecs.open ("/home/jeswin/Downloads/CRF++-0.57/test.txt","w",encoding="utf-8")

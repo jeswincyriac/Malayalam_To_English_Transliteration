@@ -7,7 +7,8 @@ cp tempoutput.txt /media/jeswin/Lectures\ and\ Files/icfoss/malayalam_transliter
 cd /media/jeswin/Lectures\ and\ Files/icfoss/malayalam_transliteration/predicting_english/without_distinguishing/transliterate
 awk '{print($4)}' tempoutput.txt >output1.txt
 tr -d '\n' < output1.txt > output2.txt
-tr "$" " " < output2.txt>output.txt
+tr "$" "\n" < output2.txt>output.txt
+cat output.txt
 rm output2.txt
 rm tempoutput.txt
 rm output1.txt
