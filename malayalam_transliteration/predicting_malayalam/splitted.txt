@@ -1,3 +1,4 @@
-re 2
-ji 2
-ya 3
+che 2
+s 2
+wi 2
+n 3
