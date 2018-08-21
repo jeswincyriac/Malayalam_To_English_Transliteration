@@ -2,13 +2,13 @@ import codecs
 import sys
 import subprocess
 filem = codecs.open(sys.argv[1],"r",encoding="utf-8")
-#fileeng = open ("english.txt","r")
-out = codecs.open ("test.txt","a",encoding="utf-8")
+
+out = codecs.open ("malsplit.txt","a",encoding="utf-8")
 malword=filem.readline()
 
 while malword != "" :
 
-    #engword=fileeng.readline().lower()
+
     i=0
     while malword[i] !="$":
         out.write(malword[i])
@@ -54,4 +54,3 @@ while malword != "" :
 
 
     malword=filem.readline()
-subprocess.call(['./trainscript.sh'])

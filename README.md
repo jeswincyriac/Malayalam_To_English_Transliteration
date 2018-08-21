@@ -8,6 +8,7 @@ correspondingly sounding English and Malayalam syllables. The model was trained 
 * A copy of the [CRF++ tool](https://taku910.github.io/crfpp/) is provided along this repository. For installation and other details refer [here](https://taku910.github.io/crfpp/#install)  
 ### Running the tool
 * run testing/program.py and input a word in Malayalam script to get its English transliteration as output.
-* If you want to  
+* If you want to  train the model yourself
+ 
 
-This transliteration project was done as part of the one month Natural Language Processing internship at ICFOSS(International Center for Free and Open Source Software) 
+This transliteration project was done as part of the one month Natural Language Processing internship at ICFOSS(International Center for Free and Open Source Software)
