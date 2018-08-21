@@ -17,4 +17,4 @@ correspondingly sounding English and Malayalam syllables. The model was trained 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-This transliteration project was done along with my team mate [Govind GS](https://github.com/govind4873) during the one month Natural Language Processing internship at ICFOSS(International Center for Free and Open Source Software,Trivandrum).Project mentors Deepu Shaji and Anju RC supported and directed under the guidence of project head Dr. Rajeev R R.
+This transliteration project was done along with my team mate [Govind GS](https://github.com/govind4873) during the one month Natural Language Processing internship at ICFOSS(International Center for Free and Open Source Software,Trivandrum).Project mentors Deepu Shaji and Anju RC gave immense support under the guidence of project head Dr. Rajeev R R.
