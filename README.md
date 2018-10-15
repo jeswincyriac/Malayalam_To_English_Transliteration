@@ -15,17 +15,17 @@ and input a word in Malayalam script to get its English transliteration as outpu
 * If you want to  train the model yourself
   * run 
   ```
-  python3 training/splitmalayalm.py 
+  python3 training/splitmalayalam.py <malayalamfilename>
   ```
   with the name of the file containing Malayalam words as argument.
   * similarly run 
   ```
-  python3 training/splitenglish.py 
+  python3 training/splitenglish.py <englishfilename>
   ```
   and give the filename of the English words as argument. 
   * use
   ```
-  bash train.sh 
+  bash training/train.sh 
   ```
   to train new model
   
