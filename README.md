@@ -7,11 +7,27 @@ correspondingly sounding English and Malayalam syllables. The model was trained 
 * This project uses python3 and Bash.
 * A copy of the [CRF++ tool](https://taku910.github.io/crfpp/) is provided along this repository. For installation and other details refer [here](https://taku910.github.io/crfpp/#install)  
 ## Running the tool
-* run testing/program.py and input a word in Malayalam script to get its English transliteration as output.
+* run 
+```
+python3 testing/program.py 
+```
+and input a word in Malayalam script to get its English transliteration as output.
 * If you want to  train the model yourself
-  * run training/splitmalayalm.py with the name of the file containing Malayalam words as argument.
-  * similarly run training/splitenglish.py and give the filename of the English words as argument. 
-  * use bash train.sh to train new model
+  * run 
+  ```
+  python3 training/splitmalayalm.py 
+  ```
+  with the name of the file containing Malayalam words as argument.
+  * similarly run 
+  ```
+  python3 training/splitenglish.py 
+  ```
+  and give the filename of the English words as argument. 
+  * use
+  ```
+  bash train.sh 
+  ```
+  to train new model
   
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
