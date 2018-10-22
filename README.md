@@ -1,13 +1,13 @@
 # Malayalam_To_English_Transliteration
 
-This tool uses a Conditional Random Fields (CRF) model created by mapping the
+This tool uses a Conditional Random Fields (CRF) model, created by mapping the
 correspondingly sounding English and Malayalam syllables. The model was trained on 3000 syllable pairs.We used a two judge accuracy evaluation and 73 of the 100 names predicted had a Levenshtein ratio higher than 0.9 according to the first judge ,while  69 of the 100 names were true according to the second judge.
 
 ## Prerequisites
 * This project uses python3 and Bash.
 * A copy of the [CRF++ tool](https://taku910.github.io/crfpp/) is provided along this repository. For installation and other details refer [here](https://taku910.github.io/crfpp/#install)  
 ## Running the tool
-* run 
+* Run the command
 ```
 python3 testing/program.py 
 ```
@@ -37,7 +37,7 @@ and input a word in Malayalam script to get its English transliteration as outpu
   ```
   bash training/train.sh 
   ```
-  to train new model.A sample of the training file is given below.
+  A sample of the resulting training file is given below.
   
    ![dsada](Screenshot_3.png)
 ## License
