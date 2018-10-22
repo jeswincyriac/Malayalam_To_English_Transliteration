@@ -14,6 +14,8 @@ python3 testing/program.py
 and input a word in Malayalam script to get its English transliteration as output.
 ## Training
 * have the malayalam words in one file and the correspondingly sounding english words in another file.
+![](Screenshot_1.png)
+
 * Make sure the English words are in lower case.Hint:
 ```
     awk '{print tolower($1)}' filename.txt
@@ -22,6 +24,7 @@ and input a word in Malayalam script to get its English transliteration as outpu
 ```
    awk '{print($1"$")}' filename.txt
 ```
+ ![](Screenshot_2.png)
 * Use  the programs splitmalayam.py and splitenglish.py to split the syllables.
   ```
   python3 training/splitmalayalam.py <malayalamfilename>
@@ -34,8 +37,9 @@ and input a word in Malayalam script to get its English transliteration as outpu
   ```
   bash training/train.sh 
   ```
-  to train new model
+  to train new model.A sample of the training file is given below.
   
+   ![dsada](Screenshot_3.png)
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
