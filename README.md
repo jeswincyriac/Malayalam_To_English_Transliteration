@@ -12,18 +12,25 @@ correspondingly sounding English and Malayalam syllables. The model was trained 
 python3 testing/program.py 
 ```
 and input a word in Malayalam script to get its English transliteration as output.
-* If you want to  train the model yourself
-  * run 
+## Training
+* have the malayalam words in one file and the correspondingly sounding english words in another file.
+* Make sure the English words are in lower case.Hint:
+```
+    awk '{print tolower($1)}' filename.txt
+```
+* Add a '$' sign after each word in both files.Make use of
+```
+   awk '{print($1"$")}' filename.txt
+```
+* Use  the programs splitmalayam.py and splitenglish.py to split the syllables.
   ```
   python3 training/splitmalayalam.py <malayalamfilename>
   ```
-  with the name of the file containing Malayalam words as argument.
-  * similarly run 
   ```
   python3 training/splitenglish.py <englishfilename>
   ```
-  and give the filename of the English words as argument. 
-  * use
+  * Manually checking the alignment of syllables is highly recommended as some unicode malayalam characters may     exhibit unexpected behaviours.
+  * use the following command for training.
   ```
   bash training/train.sh 
   ```
